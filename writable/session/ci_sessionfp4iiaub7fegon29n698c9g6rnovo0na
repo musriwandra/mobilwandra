@@ -1,0 +1,9 @@
+__ci_last_regenerate|i:1706077253;_ci_previous_url|s:37:"http://localhost:8080/index.php/tarif";error|s:223:"<!-- DEBUG-VIEW START 1 SYSTEMPATH\Validation\Views\list.php -->
+	<div class="errors" role="alert">
+		<ul>
+					<li>id Harus Diisi</li>
+				</ul>
+	</div>
+
+<!-- DEBUG-VIEW ENDED 1 SYSTEMPATH\Validation\Views\list.php -->
+";__ci_vars|a:3:{s:5:"error";s:3:"old";s:13:"_ci_old_input";s:3:"old";s:21:"_ci_validation_errors";s:3:"old";}_ci_old_input|a:2:{s:3:"get";a:0:{}s:4:"post";a:3:{s:7:"idtarif";s:3:"986";s:7:"idklass";s:3:"870";s:5:"tarif";s:6:"100000";}}_ci_validation_errors|a:1:{s:2:"id";s:14:"id Harus Diisi";}

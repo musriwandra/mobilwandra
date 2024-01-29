@@ -1,0 +1,284 @@
+CRITICAL - 2023-11-15 07:10:25 --> Undefined property: App\Controllers\ModelPengurus::$db
+in APPPATH\Controllers\ModelPengurus.php on line 9.
+ 1 APPPATH\Controllers\ModelPengurus.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ModelPengurus::$db', 'C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Controllers\\ModelPengurus.php', 9)
+ 2 APPPATH\Controllers\pengurus.php(10): App\Controllers\ModelPengurus->getPengurus()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\pengurus->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pengurus))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+CRITICAL - 2023-11-15 07:18:00 --> syntax error, unexpected token "{"
+in APPPATH\Controllers\ModelPengurus.php on line 10.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Controllers\\ModelPengurus.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ModelPengurus')
+ 3 APPPATH\Controllers\Pengurus.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ModelPengurus')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pengurus->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengurus))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+CRITICAL - 2023-11-15 07:18:44 --> Class "App\Models\Model" not found
+in APPPATH\Controllers\ModelPengurus.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(306): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Controllers\\ModelPengurus.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ModelPengurus')
+ 4 APPPATH\Controllers\Pengurus.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ModelPengurus')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pengurus->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengurus))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+CRITICAL - 2023-11-15 07:20:51 --> Class "App\Models\ModelPengurus" not found
+in APPPATH\Controllers\Pengurus.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pengurus->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengurus))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+CRITICAL - 2023-11-15 07:21:47 --> Class "App\Models\ModelPengurus" not found
+in APPPATH\Controllers\Pengurus.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pengurus->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengurus))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+CRITICAL - 2023-11-15 07:21:52 --> Class "App\Models\ModelPengurus" not found
+in APPPATH\Controllers\Pengurus.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pengurus->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengurus))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+CRITICAL - 2023-11-15 07:27:14 --> Class "App\Models\ModelPengurus" not found
+in APPPATH\Controllers\Pengurus.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pengurus->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengurus))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+ERROR - 2023-11-15 07:28:12 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'dbstmik' in C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'dbstmik', 3306, '', 0)
+#1 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\app\Models\ModelPengurus.php(12): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\app\Controllers\Pengurus.php(12): App\Models\ModelPengurus->getPengurus()
+#6 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(919): App\Controllers\Pengurus->index()
+#7 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengurus))
+#8 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Window...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'dbstmik' in C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\app\Models\ModelPengurus.php(12): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\app\Controllers\Pengurus.php(12): App\Models\ModelPengurus->getPengurus()
+#5 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(919): App\Controllers\Pengurus->index()
+#6 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengurus))
+#7 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Window...')
+#10 {main}
+CRITICAL - 2023-11-15 07:28:12 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'dbstmik'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_pengurus`', [], false)
+ 3 APPPATH\Models\ModelPengurus.php(12): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Pengurus.php(12): App\Models\ModelPengurus->getPengurus()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pengurus->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengurus))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+ERROR - 2023-11-15 07:29:19 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'db-mesjid' in C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'db-mesjid', 3306, '', 0)
+#1 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\app\Models\ModelPengurus.php(12): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\app\Controllers\Pengurus.php(12): App\Models\ModelPengurus->getPengurus()
+#6 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(919): App\Controllers\Pengurus->index()
+#7 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengurus))
+#8 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Window...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'db-mesjid' in C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\app\Models\ModelPengurus.php(12): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\app\Controllers\Pengurus.php(12): App\Models\ModelPengurus->getPengurus()
+#5 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(919): App\Controllers\Pengurus->index()
+#6 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengurus))
+#7 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Window...')
+#10 {main}
+CRITICAL - 2023-11-15 07:29:19 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'db-mesjid'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_pengurus`', [], false)
+ 3 APPPATH\Models\ModelPengurus.php(12): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Pengurus.php(12): App\Models\ModelPengurus->getPengurus()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pengurus->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengurus))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+CRITICAL - 2023-11-15 07:29:33 --> App\Models\ModelPengurus::getPengurus(): Return value must be of type string, CodeIgniter\Database\MySQLi\Result returned
+in APPPATH\Models\ModelPengurus.php on line 12.
+ 1 APPPATH\Controllers\Pengurus.php(12): App\Models\ModelPengurus->getPengurus()
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pengurus->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengurus))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+CRITICAL - 2023-11-15 07:33:03 --> Call to undefined method CodeIgniter\View\View::extends()
+in APPPATH\Views\pengurus\v_pengurus.php on line 1.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pengurus/v_pengurus', [], true)
+ 4 APPPATH\Controllers\Pengurus.php(13): view('pengurus/v_pengurus', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pengurus->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengurus))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+CRITICAL - 2023-11-15 07:33:27 --> Call to undefined method CodeIgniter\View\View::extends()
+in APPPATH\Views\pengurus\v_pengurus.php on line 1.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pengurus/v_pengurus', [], true)
+ 4 APPPATH\Controllers\Pengurus.php(13): view('pengurus/v_pengurus', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pengurus->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengurus))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+CRITICAL - 2023-11-15 07:35:02 --> Call to undefined method CodeIgniter\View\View::extends()
+in APPPATH\Views\pengurus\v_pengurus.php on line 1.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pengurus/v_pengurus', [], true)
+ 4 APPPATH\Controllers\Pengurus.php(13): view('pengurus/v_pengurus', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pengurus->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengurus))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+CRITICAL - 2023-11-15 07:35:08 --> Call to undefined method CodeIgniter\View\View::extends()
+in APPPATH\Views\pengurus\v_pengurus.php on line 1.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pengurus/v_pengurus', [], true)
+ 4 APPPATH\Controllers\Pengurus.php(13): view('pengurus/v_pengurus', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pengurus->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengurus))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+CRITICAL - 2023-11-15 07:35:23 --> Call to undefined method CodeIgniter\View\View::extends()
+in APPPATH\Views\pengurus\v_pengurus.php on line 1.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pengurus/v_pengurus', [], true)
+ 4 APPPATH\Controllers\Pengurus.php(13): view('pengurus/v_pengurus', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pengurus->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengurus))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+CRITICAL - 2023-11-15 07:36:26 --> Call to undefined method CodeIgniter\View\View::extends()
+in APPPATH\Views\pengurus\v_pengurus.php on line 1.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pengurus/v_pengurus', [], true)
+ 4 APPPATH\Controllers\Pengurus.php(13): view('pengurus/v_pengurus', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pengurus->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengurus))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+CRITICAL - 2023-11-15 07:36:32 --> Call to undefined method CodeIgniter\View\View::extends()
+in APPPATH\Views\pengurus\v_pengurus.php on line 1.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pengurus/v_pengurus', [], true)
+ 4 APPPATH\Controllers\Pengurus.php(13): view('pengurus/v_pengurus', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pengurus->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengurus))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+CRITICAL - 2023-11-15 09:01:52 --> App\Models\ModelPengurus::getPengurus(): Return value must be of type string, CodeIgniter\Database\MySQLi\Result returned
+in APPPATH\Models\ModelPengurus.php on line 12.
+ 1 APPPATH\Controllers\Pengurus.php(12): App\Models\ModelPengurus->getPengurus()
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pengurus->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengurus))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+CRITICAL - 2023-11-15 09:02:19 --> App\Controllers\Pengurus::index(): Return value must be of type string, none returned
+in APPPATH\Controllers\Pengurus.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pengurus->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengurus))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+CRITICAL - 2023-11-15 09:02:45 --> App\Models\ModelPengurus::getPengurus(): Return value must be of type string, CodeIgniter\Database\MySQLi\Result returned
+in APPPATH\Models\ModelPengurus.php on line 12.
+ 1 APPPATH\Controllers\Pengurus.php(12): App\Models\ModelPengurus->getPengurus()
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pengurus->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengurus))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+CRITICAL - 2023-11-15 09:03:04 --> App\Models\ModelPengurus::getPengurus(): Return value must be of type string, CodeIgniter\Database\MySQLi\Result returned
+in APPPATH\Models\ModelPengurus.php on line 12.
+ 1 APPPATH\Controllers\Pengurus.php(12): App\Models\ModelPengurus->getPengurus()
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pengurus->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengurus))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+CRITICAL - 2023-11-15 15:47:00 --> Invalid file: "layout/main
+        .php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/main
+        .php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('layout/main
+        ', [], true)
+ 3 APPPATH\Controllers\Layout.php(11): view('layout/main
+        ')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Layout->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layout))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+CRITICAL - 2023-11-15 15:47:03 --> Invalid file: "layout/main
+        .php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/main
+        .php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('layout/main
+        ', [], true)
+ 3 APPPATH\Controllers\Layout.php(11): view('layout/main
+        ')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Layout->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layout))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')

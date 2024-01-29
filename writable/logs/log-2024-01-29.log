@@ -1,0 +1,55 @@
+INFO - 2024-01-29 04:22:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-29 04:22:33 --> mysqli_sql_exception: Table 'dbprjweb2.tbl_peminjaman' doesn't exist in C:\Users\Windows 10\Documents\SEMESTER-5\prjwebRetalMobil\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Windows 10\Documents\SEMESTER-5\prjwebRetalMobil\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\Windows 10\Documents\SEMESTER-5\prjwebRetalMobil\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\Windows 10\Documents\SEMESTER-5\prjwebRetalMobil\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\Windows 10\Documents\SEMESTER-5\prjwebRetalMobil\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Windows 10\Documents\SEMESTER-5\prjwebRetalMobil\app\Models\ModelPeminjaman.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Windows 10\Documents\SEMESTER-5\prjwebRetalMobil\app\Controllers\Peminjaman.php(12): App\Models\ModelPeminjaman->getPeminjaman()
+#6 C:\Users\Windows 10\Documents\SEMESTER-5\prjwebRetalMobil\system\CodeIgniter.php(919): App\Controllers\Peminjaman->index()
+#7 C:\Users\Windows 10\Documents\SEMESTER-5\prjwebRetalMobil\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#8 C:\Users\Windows 10\Documents\SEMESTER-5\prjwebRetalMobil\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Windows 10\Documents\SEMESTER-5\prjwebRetalMobil\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Windows 10\Documents\SEMESTER-5\prjwebRetalMobil\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Window...')
+#11 {main}
+CRITICAL - 2024-01-29 04:22:33 --> Table 'dbprjweb2.tbl_peminjaman' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_peminjaman`
+JOIN `tbl_pelanggan` ON `id_pelanggan`=`id`
+JOIN `tbl_mobil` ON `id_mobil`=`id_mobil1`', [], false)
+ 2 APPPATH\Models\ModelPeminjaman.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Peminjaman.php(12): App\Models\ModelPeminjaman->getPeminjaman()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Peminjaman->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\prjwebRetalMobil\\public\\index.php')
+INFO - 2024-01-29 04:23:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 04:23:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-29 04:24:04 --> mysqli_sql_exception: Table 'dbprjweb2.tbl_mobil' doesn't exist in C:\Users\Windows 10\Documents\SEMESTER-5\prjwebRetalMobil\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Windows 10\Documents\SEMESTER-5\prjwebRetalMobil\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\Windows 10\Documents\SEMESTER-5\prjwebRetalMobil\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\Windows 10\Documents\SEMESTER-5\prjwebRetalMobil\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\Windows 10\Documents\SEMESTER-5\prjwebRetalMobil\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Windows 10\Documents\SEMESTER-5\prjwebRetalMobil\app\Models\ModelMobil.php(12): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Windows 10\Documents\SEMESTER-5\prjwebRetalMobil\app\Controllers\Mobil.php(12): App\Models\ModelMobil->getMobil()
+#6 C:\Users\Windows 10\Documents\SEMESTER-5\prjwebRetalMobil\system\CodeIgniter.php(919): App\Controllers\Mobil->index()
+#7 C:\Users\Windows 10\Documents\SEMESTER-5\prjwebRetalMobil\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mobil))
+#8 C:\Users\Windows 10\Documents\SEMESTER-5\prjwebRetalMobil\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Windows 10\Documents\SEMESTER-5\prjwebRetalMobil\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Windows 10\Documents\SEMESTER-5\prjwebRetalMobil\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Window...')
+#11 {main}
+CRITICAL - 2024-01-29 04:24:04 --> Table 'dbprjweb2.tbl_mobil' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_mobil`', [], false)
+ 2 APPPATH\Models\ModelMobil.php(12): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Mobil.php(12): App\Models\ModelMobil->getMobil()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Mobil->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mobil))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\prjwebRetalMobil\\public\\index.php')

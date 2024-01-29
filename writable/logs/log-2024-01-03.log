@@ -1,0 +1,66 @@
+INFO - 2024-01-03 06:39:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-03 06:39:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-03 06:41:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-03 06:43:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-03 06:56:05 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\app\Models\ModelKasMasjid.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\app\Controllers\Kasmasjid.php(25): App\Models\ModelKasMasjid->insertData(Array)
+#6 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(919): App\Controllers\Kasmasjid->save()
+#7 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasmasjid))
+#8 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Window...')
+#11 {main}
+CRITICAL - 2024-01-03 06:56:05 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_kas_masjid` (`tanggal`, `ket`, `kas_masuk`, `kas_keluar`, `jenis_kas`, `status`) VALUES (:tanggal:, :ket:, :kas_masuk:, :kas_keluar:, :jenis_kas:, :status:)', [...], false)
+ 2 APPPATH\Models\ModelKasMasjid.php(16): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Kasmasjid.php(25): App\Models\ModelKasMasjid->insertData([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kasmasjid->save()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasmasjid))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+INFO - 2024-01-03 06:56:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-03 06:56:25 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\app\Models\ModelKasMasjid.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\app\Controllers\Kasmasjid.php(25): App\Models\ModelKasMasjid->insertData(Array)
+#6 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(919): App\Controllers\Kasmasjid->save()
+#7 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasmasjid))
+#8 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Window...')
+#11 {main}
+CRITICAL - 2024-01-03 06:56:25 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_kas_masjid` (`tanggal`, `ket`, `kas_masuk`, `kas_keluar`, `jenis_kas`, `status`) VALUES (:tanggal:, :ket:, :kas_masuk:, :kas_keluar:, :jenis_kas:, :status:)', [...], false)
+ 2 APPPATH\Models\ModelKasMasjid.php(16): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Kasmasjid.php(25): App\Models\ModelKasMasjid->insertData([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kasmasjid->save()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasmasjid))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+INFO - 2024-01-03 06:56:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-03 07:00:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-03 07:01:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-03 07:02:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-03 07:34:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-03 07:55:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-03 07:56:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-03 07:56:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-03 07:58:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-03 07:58:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-03 07:59:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-03 08:02:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-03 08:02:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,251 @@
+ERROR - 2023-11-06 05:52:50 --> mysqli_sql_exception: Table 'dbstmik.quiz' doesn't exist in C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\app\Controllers\quiz.php(57): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(919): App\Controllers\quiz->entri()
+#6 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\quiz))
+#7 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Window...')
+#10 {main}
+CRITICAL - 2023-11-06 05:52:50 --> Table 'dbstmik.quiz' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `quiz`', [], false)
+ 2 APPPATH\Controllers\quiz.php(57): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\quiz->entri()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\quiz))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+CRITICAL - 2023-11-06 05:56:23 --> Invalid file: "entri .php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('entri .php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('entri ', [], true)
+ 3 APPPATH\Controllers\quiz.php(55): view('entri ')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\quiz->entra()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\quiz))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+CRITICAL - 2023-11-06 05:56:32 --> Invalid file: "entra .php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('entra .php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('entra ', [], true)
+ 3 APPPATH\Controllers\quiz.php(55): view('entra ')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\quiz->entra()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\quiz))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+CRITICAL - 2023-11-06 05:57:00 --> Invalid file: "entri .php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('entri .php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('entri ', [], true)
+ 3 APPPATH\Controllers\quiz.php(55): view('entri ')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\quiz->entri()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\quiz))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+ERROR - 2023-11-06 05:59:12 --> mysqli_sql_exception: Column 'kodebaju' cannot be null in C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `qu...', 0)
+#1 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `qu...')
+#2 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `qu...')
+#3 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `qu...', Array, false)
+#4 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\app\Controllers\quiz.php(34): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(919): App\Controllers\quiz->simpan()
+#6 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\quiz))
+#7 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Window...')
+#10 {main}
+CRITICAL - 2023-11-06 05:59:12 --> Column 'kodebaju' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `quiz` (`kodebaju`, `jenisbaju`, `hargabaju`, `jumlah`, `total`) VALUES (:kodebaju:, :jenisbaju:, :hargabaju:, :jumlah:, :total:)', [...], false)
+ 2 APPPATH\Controllers\quiz.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\quiz->simpan()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\quiz))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+ERROR - 2023-11-06 06:15:12 --> mysqli_sql_exception: Column 'kodebaju' cannot be null in C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `qu...', 0)
+#1 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `qu...')
+#2 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `qu...')
+#3 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `qu...', Array, false)
+#4 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\app\Controllers\quiz.php(34): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(919): App\Controllers\quiz->simpan()
+#6 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\quiz))
+#7 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Window...')
+#10 {main}
+CRITICAL - 2023-11-06 06:15:12 --> Column 'kodebaju' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `quiz` (`kodebaju`, `jenisbaju`, `hargabaju`, `jumlah`, `total`) VALUES (:kodebaju:, :jenisbaju:, :hargabaju:, :jumlah:, :total:)', [...], false)
+ 2 APPPATH\Controllers\quiz.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\quiz->simpan()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\quiz))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+ERROR - 2023-11-06 06:18:57 --> mysqli_sql_exception: Duplicate entry 'k002' for key 'PRIMARY' in C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `qu...', 0)
+#1 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `qu...')
+#2 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `qu...')
+#3 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `qu...', Array, false)
+#4 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\app\Controllers\quiz.php(34): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(919): App\Controllers\quiz->simpan()
+#6 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\quiz))
+#7 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Window...')
+#10 {main}
+CRITICAL - 2023-11-06 06:18:57 --> Duplicate entry 'k002' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `quiz` (`kodebaju`, `jenisbaju`, `hargabaju`, `jumlah`, `total`) VALUES (:kodebaju:, :jenisbaju:, :hargabaju:, :jumlah:, :total:)', [...], false)
+ 2 APPPATH\Controllers\quiz.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\quiz->simpan()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\quiz))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+ERROR - 2023-11-06 06:19:16 --> mysqli_sql_exception: Duplicate entry 'k001' for key 'PRIMARY' in C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `qu...', 0)
+#1 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `qu...')
+#2 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `qu...')
+#3 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `qu...', Array, false)
+#4 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\app\Controllers\quiz.php(34): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(919): App\Controllers\quiz->simpan()
+#6 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\quiz))
+#7 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Window...')
+#10 {main}
+CRITICAL - 2023-11-06 06:19:16 --> Duplicate entry 'k001' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `quiz` (`kodebaju`, `jenisbaju`, `hargabaju`, `jumlah`, `total`) VALUES (:kodebaju:, :jenisbaju:, :hargabaju:, :jumlah:, :total:)', [...], false)
+ 2 APPPATH\Controllers\quiz.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\quiz->simpan()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\quiz))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+ERROR - 2023-11-06 07:02:34 --> mysqli_sql_exception: Duplicate entry 'k002' for key 'PRIMARY' in C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `qu...', 0)
+#1 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `qu...')
+#2 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `qu...')
+#3 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `qu...', Array, false)
+#4 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\app\Controllers\quiz.php(34): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(919): App\Controllers\quiz->simpan()
+#6 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\quiz))
+#7 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Window...')
+#10 {main}
+CRITICAL - 2023-11-06 07:02:34 --> Duplicate entry 'k002' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `quiz` (`kodesepeda`, `jenissepeda`, `hargasemua`, `jumlahbeli`, `hargasatuan`) VALUES (:kodesepeda:, :jenissepeda:, :hargasemua:, :jumlahbeli:, :hargasatuan:)', [...], false)
+ 2 APPPATH\Controllers\quiz.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\quiz->simpan()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\quiz))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+ERROR - 2023-11-06 07:02:47 --> mysqli_sql_exception: Duplicate entry 'k001' for key 'PRIMARY' in C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `qu...', 0)
+#1 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `qu...')
+#2 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `qu...')
+#3 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `qu...', Array, false)
+#4 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\app\Controllers\quiz.php(34): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(919): App\Controllers\quiz->simpan()
+#6 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\quiz))
+#7 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Window...')
+#10 {main}
+CRITICAL - 2023-11-06 07:02:47 --> Duplicate entry 'k001' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `quiz` (`kodesepeda`, `jenissepeda`, `hargasemua`, `jumlahbeli`, `hargasatuan`) VALUES (:kodesepeda:, :jenissepeda:, :hargasemua:, :jumlahbeli:, :hargasatuan:)', [...], false)
+ 2 APPPATH\Controllers\quiz.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\quiz->simpan()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\quiz))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+ERROR - 2023-11-06 07:09:49 --> mysqli_sql_exception: Duplicate entry 'k002' for key 'PRIMARY' in C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `qu...', 0)
+#1 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `qu...')
+#2 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `qu...')
+#3 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `qu...', Array, false)
+#4 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\app\Controllers\quiz.php(34): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(919): App\Controllers\quiz->simpan()
+#6 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\quiz))
+#7 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Window...')
+#10 {main}
+CRITICAL - 2023-11-06 07:09:49 --> Duplicate entry 'k002' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `quiz` (`kodesepeda`, `jenissepeda`, `hargasemua`, `jumlahbeli`, `hargasatuan`) VALUES (:kodesepeda:, :jenissepeda:, :hargasemua:, :jumlahbeli:, :hargasatuan:)', [...], false)
+ 2 APPPATH\Controllers\quiz.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\quiz->simpan()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\quiz))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+ERROR - 2023-11-06 08:01:31 --> mysqli_sql_exception: Duplicate entry '2120014' for key 'PRIMARY' in C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ut...', 0)
+#1 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ut...')
+#2 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ut...')
+#3 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ut...', Array, false)
+#4 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\app\Controllers\uts.php(19): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(919): App\Controllers\uts->simpan()
+#6 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\uts))
+#7 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Window...')
+#10 {main}
+CRITICAL - 2023-11-06 08:01:31 --> Duplicate entry '2120014' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `uts` (`nobp`, `nama`, `uts`, `uas`, `keterangan`) VALUES (:nobp:, :nama:, :uts:, :uas:, :keterangan:)', [...], false)
+ 2 APPPATH\Controllers\uts.php(19): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\uts->simpan()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\uts))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+ERROR - 2023-11-06 08:01:45 --> mysqli_sql_exception: Duplicate entry '2120014' for key 'PRIMARY' in C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ut...', 0)
+#1 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ut...')
+#2 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ut...')
+#3 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ut...', Array, false)
+#4 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\app\Controllers\uts.php(19): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(919): App\Controllers\uts->simpan()
+#6 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\uts))
+#7 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Window...')
+#10 {main}
+CRITICAL - 2023-11-06 08:01:45 --> Duplicate entry '2120014' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `uts` (`nobp`, `nama`, `uts`, `uas`, `keterangan`) VALUES (:nobp:, :nama:, :uts:, :uas:, :keterangan:)', [...], false)
+ 2 APPPATH\Controllers\uts.php(19): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\uts->simpan()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\uts))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')

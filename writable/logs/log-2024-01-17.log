@@ -1,0 +1,1448 @@
+INFO - 2024-01-17 00:55:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 00:55:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 00:55:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 00:56:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 01:25:43 --> Invalid file: "kaskeluar/v_kask.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kaskeluar/v_kask.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kaskeluar/v_kask', [], true)
+ 3 APPPATH\Controllers\KasKeluar.php(14): view('kaskeluar/v_kask', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\kaskeluar->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kaskeluar))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+INFO - 2024-01-17 01:26:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 01:36:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 01:36:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 01:36:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 01:36:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 01:47:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 01:47:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 01:50:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 02:37:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 02:37:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 02:38:00 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Kaskeluar1.php(12): CodeIgniter\Model->__call('getKaskeluaranakyatim', [])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\kaskeluar1->anakyatim()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kaskeluar1))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+CRITICAL - 2024-01-17 02:40:04 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Kaskeluar1.php(12): CodeIgniter\Model->__call('getKaskeluaranakyatim', [])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\kaskeluar1->anakyatim()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kaskeluar1))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+INFO - 2024-01-17 02:40:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 02:40:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 02:40:16 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Kaskeluar1.php(12): CodeIgniter\Model->__call('getKaskeluaranakyatim', [])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\kaskeluar1->anakyatim()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kaskeluar1))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+INFO - 2024-01-17 02:53:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 02:53:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 02:54:04 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Kaskeluar1.php(12): CodeIgniter\Model->__call('getKaskeluaranakyatim', [])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\kaskeluar1->anakyatim()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kaskeluar1))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+INFO - 2024-01-17 02:54:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 02:56:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 02:56:08 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getResul()
+in APPPATH\Controllers\Kaskeluar1.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\kaskeluar1->anakyatim()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kaskeluar1))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+CRITICAL - 2024-01-17 02:57:11 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Kaskeluar1.php(14): CodeIgniter\Model->__call('getTotalanakyatim', [])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\kaskeluar1->anakyatim()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kaskeluar1))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+INFO - 2024-01-17 03:03:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 03:04:04 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getResul()
+in APPPATH\Controllers\Kaskeluar1.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\kaskeluar1->anakyatim()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kaskeluar1))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+CRITICAL - 2024-01-17 03:14:43 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Kaskeluar1.php(12): CodeIgniter\Model->__call('getKaskeluaranakyatim', [])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\kaskeluar1->anakyatim()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kaskeluar1))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+CRITICAL - 2024-01-17 03:14:47 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Kaskeluar1.php(12): CodeIgniter\Model->__call('getKaskeluaranakyatim', [])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\kaskeluar1->anakyatim()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kaskeluar1))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+INFO - 2024-01-17 03:14:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 03:14:53 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Kaskeluar1.php(12): CodeIgniter\Model->__call('getKaskeluaranakyatim', [])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\kaskeluar1->anakyatim()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kaskeluar1))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+INFO - 2024-01-17 03:14:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 03:15:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 03:15:04 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Kaskeluar1.php(12): CodeIgniter\Model->__call('getKaskeluaranakyatim', [])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\kaskeluar1->anakyatim()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kaskeluar1))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+INFO - 2024-01-17 03:15:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 03:15:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 03:16:05 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getResul()
+in APPPATH\Controllers\Kaskeluar1.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\kaskeluar1->anakyatim()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kaskeluar1))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+CRITICAL - 2024-01-17 03:19:11 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getResul()
+in APPPATH\Controllers\Kaskeluar1.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\kaskeluar1->anakyatim()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kaskeluar1))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+CRITICAL - 2024-01-17 03:20:30 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getResul()
+in APPPATH\Controllers\Kaskeluar1.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\kaskeluar1->anakyatim()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kaskeluar1))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+CRITICAL - 2024-01-17 03:20:40 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getResul()
+in APPPATH\Controllers\Kaskeluar1.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\kaskeluar1->anakyatim()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kaskeluar1))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+CRITICAL - 2024-01-17 03:21:34 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getResul()
+in APPPATH\Controllers\Kaskeluar1.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\kaskeluar1->anakyatim()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kaskeluar1))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+INFO - 2024-01-17 03:22:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 03:22:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 03:22:31 --> Invalid file: "kasmasjid1/v_kasmasjid.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kasmasjid1/v_kasmasjid.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kasmasjid1/v_kasmasjid', [], true)
+ 3 APPPATH\Controllers\Kasmasjid.php(14): view('kasmasjid1/v_kasmasjid', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kasmasjid->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasmasjid))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+INFO - 2024-01-17 03:22:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 03:22:51 --> Class "App\Controllers\ModelKasMasjid1" not found
+in APPPATH\Controllers\Kasmasjid.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kasmasjid->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasmasjid))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+INFO - 2024-01-17 03:23:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 03:23:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 03:23:23 --> Undefined variable $data_donatur
+in APPPATH\Views\kasmasjid\v_kasmasjid.php on line 273.
+ 1 APPPATH\Views\kasmasjid\v_kasmasjid.php(273): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_donatur', 'C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Views\\kasmasjid\\v_kasmasjid.php', 273)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Views\\kasmasjid\\v_kasmasjid.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kasmasjid/v_kasmasjid', [], true)
+ 5 APPPATH\Controllers\Kasmasjid.php(14): view('kasmasjid/v_kasmasjid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kasmasjid->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasmasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+INFO - 2024-01-17 03:24:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 03:24:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 03:24:08 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getResul()
+in APPPATH\Controllers\Kaskeluar1.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\kaskeluar1->anakyatim()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\kaskeluar1))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+CRITICAL - 2024-01-17 03:25:08 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getResul()
+in APPPATH\Controllers\Kaskeluar1.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar1->anakyatim()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar1))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+INFO - 2024-01-17 03:33:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 03:33:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 03:33:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 03:33:55 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getResul()
+in APPPATH\Controllers\Kaskeluar1.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar1->anakyatim()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar1))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+CRITICAL - 2024-01-17 03:35:14 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Kaskeluar1.php(17): CodeIgniter\Model->__call('getTotalanakyatim', [])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar1->anakyatim()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar1))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+INFO - 2024-01-17 03:38:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 03:38:08 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Kaskeluar1.php(17): CodeIgniter\Model->__call('getTotalanakyatim', [])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar1->anakyatim()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar1))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+INFO - 2024-01-17 03:40:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 03:40:16 --> Undefined variable $kasmasuk
+in APPPATH\Views\kaskeluar\vkkanakyatim.php on line 105.
+ 1 APPPATH\Views\kaskeluar\vkkanakyatim.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kasmasuk', 'C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Views\\kaskeluar\\vkkanakyatim.php', 105)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Views\\kaskeluar\\vkkanakyatim.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kaskeluar/vkkanakyatim', [], true)
+ 5 APPPATH\Controllers\Kaskeluar1.php(18): view('kaskeluar/vkkanakyatim', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar1->anakyatim()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar1))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+INFO - 2024-01-17 03:41:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 03:41:53 --> Undefined variable $kasmasuk
+in APPPATH\Views\kaskeluar\vkkanakyatim.php on line 195.
+ 1 APPPATH\Views\kaskeluar\vkkanakyatim.php(195): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kasmasuk', 'C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Views\\kaskeluar\\vkkanakyatim.php', 195)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Views\\kaskeluar\\vkkanakyatim.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kaskeluar/vkkanakyatim', [], true)
+ 5 APPPATH\Controllers\Kaskeluar1.php(18): view('kaskeluar/vkkanakyatim', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar1->anakyatim()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar1))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+INFO - 2024-01-17 03:42:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 03:48:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 03:48:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 03:49:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 03:49:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 03:49:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 03:49:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 03:51:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 03:51:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 03:56:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 03:59:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 03:59:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:00:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:00:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:00:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:02:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:05:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:05:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:05:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:07:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:07:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:08:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:09:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:09:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:09:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:09:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:10:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:10:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:10:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:10:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:10:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:11:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:11:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:12:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:13:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:14:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:17:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:17:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:18:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:18:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:19:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:19:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:20:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:20:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:22:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:22:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:22:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:23:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:25:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:25:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:25:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:26:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:26:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:30:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:30:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:34:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:34:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:35:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:35:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:37:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:38:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:38:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:38:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:39:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:39:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:39:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:39:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:39:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:40:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:40:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:40:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:40:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:40:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:41:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:41:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:41:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:41:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:44:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:44:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:45:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:45:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:46:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:46:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:47:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:47:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:47:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:48:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:48:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:49:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:54:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:54:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:54:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:55:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:56:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:56:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 04:58:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 04:58:23 --> Undefined array key "kas_masuk"
+in APPPATH\Views\kaskeluar\vkkanakyatim.php on line 106.
+ 1 APPPATH\Views\kaskeluar\vkkanakyatim.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kas_masuk"', 'C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Views\\kaskeluar\\vkkanakyatim.php', 106)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Views\\kaskeluar\\vkkanakyatim.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kaskeluar/vkkanakyatim', [], true)
+ 5 APPPATH\Controllers\Kaskeluar1.php(18): view('kaskeluar/vkkanakyatim', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar1->anakyatim()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar1))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+ERROR - 2024-01-17 05:00:21 --> mysqli_sql_exception: Table 'dbdigitalmasjid.tbl_kas_mesjid' doesn't exist in C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\app\Models\ModelKasKeluar1.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\app\Controllers\Kaskeluar1.php(17): App\Models\ModelKasKeluar1->getTotalanakyatim()
+#6 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(919): App\Controllers\Kaskeluar1->anakyatim()
+#7 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar1))
+#8 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Window...')
+#11 {main}
+CRITICAL - 2024-01-17 05:00:21 --> Table 'dbdigitalmasjid.tbl_kas_mesjid' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_kas_mesjid`
+WHERE `jenis_kas` = "Anak Yatim"', [], false)
+ 2 APPPATH\Models\ModelKasKeluar1.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Kaskeluar1.php(17): App\Models\ModelKasKeluar1->getTotalanakyatim()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar1->anakyatim()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar1))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+INFO - 2024-01-17 05:00:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 05:02:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 05:03:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 05:03:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 05:04:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 05:04:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 05:05:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 05:05:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 05:05:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 05:06:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 05:06:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 05:07:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 05:08:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 05:08:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 05:08:57 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Kaskeluar1.php(48): CodeIgniter\Model->__call('updatekask', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar1->update()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar1))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+ERROR - 2024-01-17 05:10:30 --> mysqli_sql_exception: Duplicate entry '2' for key 'PRIMARY' in C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `tbl_kas...', 0)
+#1 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_kas...')
+#2 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_kas...')
+#3 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_kas...', Array, false)
+#4 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\app\Models\ModelKasKeluar1.php(39): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\app\Controllers\Kaskeluar1.php(48): App\Models\ModelKasKeluar1->updatekaskeluar(Array, '2')
+#6 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(919): App\Controllers\Kaskeluar1->update()
+#7 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar1))
+#8 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Window...')
+#11 {main}
+CRITICAL - 2024-01-17 05:10:30 --> Duplicate entry '2' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_kas_keluar` SET `id_kas_masjid` = :id_kas_masjid:', [...], false)
+ 2 APPPATH\Models\ModelKasKeluar1.php(39): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 APPPATH\Controllers\Kaskeluar1.php(48): App\Models\ModelKasKeluar1->updatekaskeluar([...], '2')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar1->update()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar1))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+INFO - 2024-01-17 05:11:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 05:11:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-17 05:11:30 --> mysqli_sql_exception: Duplicate entry '2' for key 'PRIMARY' in C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `tbl_kas...', 0)
+#1 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_kas...')
+#2 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_kas...')
+#3 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_kas...', Array, false)
+#4 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\app\Models\ModelKasKeluar1.php(39): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\app\Controllers\Kaskeluar1.php(48): App\Models\ModelKasKeluar1->updatekaskeluar(Array, '2')
+#6 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(919): App\Controllers\Kaskeluar1->update()
+#7 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar1))
+#8 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Window...')
+#11 {main}
+CRITICAL - 2024-01-17 05:11:30 --> Duplicate entry '2' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_kas_keluar` SET `id_kas_masjid` = :id_kas_masjid:', [...], false)
+ 2 APPPATH\Models\ModelKasKeluar1.php(39): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 APPPATH\Controllers\Kaskeluar1.php(48): App\Models\ModelKasKeluar1->updatekaskeluar([...], '2')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar1->update()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar1))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+INFO - 2024-01-17 05:12:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 05:13:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 05:14:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 05:17:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 05:17:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 05:17:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 05:18:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 05:18:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 05:18:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 05:18:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 05:18:46 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Kaskeluar1.php(55): CodeIgniter\Model->__call('deletekask', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar1->delete()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar1))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+INFO - 2024-01-17 05:19:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 05:19:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 05:20:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 05:20:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 05:21:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 05:22:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 05:23:00 --> Undefined array key "nama_agenda"
+in APPPATH\Views\kaskeluar\vkktpq.php on line 56.
+ 1 APPPATH\Views\kaskeluar\vkktpq.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_agenda"', 'C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Views\\kaskeluar\\vkktpq.php', 56)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Views\\kaskeluar\\vkktpq.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kaskeluar/vkktpq', [], true)
+ 5 APPPATH\Controllers\Kaskeluar1.php(65): view('kaskeluar/vkktpq', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar1->tpq()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar1))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+INFO - 2024-01-17 05:24:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 05:24:52 --> Undefined variable $kasmasuk
+in APPPATH\Views\kaskeluar\vkktpq.php on line 105.
+ 1 APPPATH\Views\kaskeluar\vkktpq.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kasmasuk', 'C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Views\\kaskeluar\\vkktpq.php', 105)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Views\\kaskeluar\\vkktpq.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kaskeluar/vkktpq', [], true)
+ 5 APPPATH\Controllers\Kaskeluar1.php(65): view('kaskeluar/vkktpq', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar1->tpq()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar1))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+INFO - 2024-01-17 05:26:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 05:26:29 --> Undefined variable $kasmasuk
+in APPPATH\Views\kaskeluar\vkktpq.php on line 195.
+ 1 APPPATH\Views\kaskeluar\vkktpq.php(195): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kasmasuk', 'C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Views\\kaskeluar\\vkktpq.php', 195)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Views\\kaskeluar\\vkktpq.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kaskeluar/vkktpq', [], true)
+ 5 APPPATH\Controllers\Kaskeluar1.php(65): view('kaskeluar/vkktpq', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar1->tpq()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar1))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+INFO - 2024-01-17 05:26:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 05:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 05:28:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 05:30:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 05:30:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 05:30:27 --> Undefined array key "kas_masuk"
+in APPPATH\Views\kaskeluar\vkktpq.php on line 106.
+ 1 APPPATH\Views\kaskeluar\vkktpq.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kas_masuk"', 'C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Views\\kaskeluar\\vkktpq.php', 106)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Views\\kaskeluar\\vkktpq.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kaskeluar/vkktpq', [], true)
+ 5 APPPATH\Controllers\Kaskeluar1.php(65): view('kaskeluar/vkktpq', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar1->tpq()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar1))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+INFO - 2024-01-17 05:32:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 05:32:08 --> Undefined array key "kas_masuk"
+in APPPATH\Views\kaskeluar\vkktpq.php on line 196.
+ 1 APPPATH\Views\kaskeluar\vkktpq.php(196): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kas_masuk"', 'C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Views\\kaskeluar\\vkktpq.php', 196)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Views\\kaskeluar\\vkktpq.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kaskeluar/vkktpq', [], true)
+ 5 APPPATH\Controllers\Kaskeluar1.php(65): view('kaskeluar/vkktpq', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar1->tpq()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar1))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+INFO - 2024-01-17 05:32:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 05:33:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 05:33:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 05:35:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 05:35:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-17 05:35:48 --> mysqli_sql_exception: Unknown column 'id_agendamasjid' in 'field list' in C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `tbl_kas...', 0)
+#1 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_kas...')
+#2 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_kas...')
+#3 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_kas...', Array, false)
+#4 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\app\Models\ModelKasKeluar1.php(71): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\app\Controllers\Kaskeluar1.php(98): App\Models\ModelKasKeluar1->updatekaskeluartpq(Array, '4')
+#6 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(919): App\Controllers\Kaskeluar1->updatetpq()
+#7 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar1))
+#8 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Window...')
+#11 {main}
+CRITICAL - 2024-01-17 05:35:48 --> Unknown column 'id_agendamasjid' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_kas_masjid` SET `tanggal` = :tanggal:, `ket` = :ket:, `kas_keluar` = :kas_keluar:, `jenis_kas` = :jenis_kas:, `id_agendamasjid` = :id_agendamasjid:
+WHERE `id_kas_masjid` = :id_kas_masjid:', [...], false)
+ 2 APPPATH\Models\ModelKasKeluar1.php(71): CodeIgniter\Database\BaseBuilder->update([...], [...])
+ 3 APPPATH\Controllers\Kaskeluar1.php(98): App\Models\ModelKasKeluar1->updatekaskeluartpq([...], '4')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar1->updatetpq()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar1))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+ERROR - 2024-01-17 05:42:20 --> mysqli_sql_exception: Unknown column 'id_agendamasjid' in 'field list' in C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `tbl_kas...', 0)
+#1 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_kas...')
+#2 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_kas...')
+#3 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_kas...', Array, false)
+#4 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\app\Models\ModelKasKeluar1.php(71): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\app\Controllers\Kaskeluar1.php(98): App\Models\ModelKasKeluar1->updatekaskeluartpq(Array, '4')
+#6 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(919): App\Controllers\Kaskeluar1->updatetpq()
+#7 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar1))
+#8 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Window...')
+#11 {main}
+CRITICAL - 2024-01-17 05:42:20 --> Unknown column 'id_agendamasjid' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_kas_masjid` SET `tanggal` = :tanggal:, `ket` = :ket:, `kas_keluar` = :kas_keluar:, `jenis_kas` = :jenis_kas:, `id_agendamasjid` = :id_agendamasjid:
+WHERE `id_kas_masjid` = :id_kas_masjid:', [...], false)
+ 2 APPPATH\Models\ModelKasKeluar1.php(71): CodeIgniter\Database\BaseBuilder->update([...], [...])
+ 3 APPPATH\Controllers\Kaskeluar1.php(98): App\Models\ModelKasKeluar1->updatekaskeluartpq([...], '4')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar1->updatetpq()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar1))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+INFO - 2024-01-17 05:42:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-17 05:42:31 --> mysqli_sql_exception: Unknown column 'id_agendamasjid' in 'field list' in C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `tbl_kas...', 0)
+#1 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_kas...')
+#2 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_kas...')
+#3 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_kas...', Array, false)
+#4 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\app\Models\ModelKasKeluar1.php(71): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\app\Controllers\Kaskeluar1.php(98): App\Models\ModelKasKeluar1->updatekaskeluartpq(Array, '4')
+#6 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(919): App\Controllers\Kaskeluar1->updatetpq()
+#7 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar1))
+#8 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Window...')
+#11 {main}
+CRITICAL - 2024-01-17 05:42:31 --> Unknown column 'id_agendamasjid' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_kas_masjid` SET `tanggal` = :tanggal:, `ket` = :ket:, `kas_keluar` = :kas_keluar:, `jenis_kas` = :jenis_kas:, `id_agendamasjid` = :id_agendamasjid:
+WHERE `id_kas_masjid` = :id_kas_masjid:', [...], false)
+ 2 APPPATH\Models\ModelKasKeluar1.php(71): CodeIgniter\Database\BaseBuilder->update([...], [...])
+ 3 APPPATH\Controllers\Kaskeluar1.php(98): App\Models\ModelKasKeluar1->updatekaskeluartpq([...], '4')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar1->updatetpq()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar1))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+ERROR - 2024-01-17 05:42:33 --> mysqli_sql_exception: Unknown column 'id_agendamasjid' in 'field list' in C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `tbl_kas...', 0)
+#1 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_kas...')
+#2 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_kas...')
+#3 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_kas...', Array, false)
+#4 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\app\Models\ModelKasKeluar1.php(71): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\app\Controllers\Kaskeluar1.php(98): App\Models\ModelKasKeluar1->updatekaskeluartpq(Array, '4')
+#6 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(919): App\Controllers\Kaskeluar1->updatetpq()
+#7 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar1))
+#8 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Window...')
+#11 {main}
+CRITICAL - 2024-01-17 05:42:33 --> Unknown column 'id_agendamasjid' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_kas_masjid` SET `tanggal` = :tanggal:, `ket` = :ket:, `kas_keluar` = :kas_keluar:, `jenis_kas` = :jenis_kas:, `id_agendamasjid` = :id_agendamasjid:
+WHERE `id_kas_masjid` = :id_kas_masjid:', [...], false)
+ 2 APPPATH\Models\ModelKasKeluar1.php(71): CodeIgniter\Database\BaseBuilder->update([...], [...])
+ 3 APPPATH\Controllers\Kaskeluar1.php(98): App\Models\ModelKasKeluar1->updatekaskeluartpq([...], '4')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar1->updatetpq()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar1))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+INFO - 2024-01-17 05:42:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-17 05:42:53 --> mysqli_sql_exception: Unknown column 'id_agendamasjid' in 'field list' in C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `tbl_kas...', 0)
+#1 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_kas...')
+#2 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_kas...')
+#3 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_kas...', Array, false)
+#4 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\app\Models\ModelKasKeluar1.php(71): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\app\Controllers\Kaskeluar1.php(98): App\Models\ModelKasKeluar1->updatekaskeluartpq(Array, '4')
+#6 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(919): App\Controllers\Kaskeluar1->updatetpq()
+#7 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar1))
+#8 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Window...')
+#11 {main}
+CRITICAL - 2024-01-17 05:42:53 --> Unknown column 'id_agendamasjid' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_kas_masjid` SET `tanggal` = :tanggal:, `ket` = :ket:, `kas_keluar` = :kas_keluar:, `jenis_kas` = :jenis_kas:, `id_agendamasjid` = :id_agendamasjid:
+WHERE `id_kas_masjid` = :id_kas_masjid:', [...], false)
+ 2 APPPATH\Models\ModelKasKeluar1.php(71): CodeIgniter\Database\BaseBuilder->update([...], [...])
+ 3 APPPATH\Controllers\Kaskeluar1.php(98): App\Models\ModelKasKeluar1->updatekaskeluartpq([...], '4')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar1->updatetpq()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar1))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+ERROR - 2024-01-17 05:44:39 --> mysqli_sql_exception: Unknown column 'id_agendamasjid' in 'field list' in C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `tbl_kas...', 0)
+#1 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_kas...')
+#2 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_kas...')
+#3 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_kas...', Array, false)
+#4 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\app\Models\ModelKasKeluar1.php(71): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\app\Controllers\Kaskeluar1.php(98): App\Models\ModelKasKeluar1->updatekaskeluartpq(Array, '4')
+#6 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(919): App\Controllers\Kaskeluar1->updatetpq()
+#7 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar1))
+#8 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Window...')
+#11 {main}
+CRITICAL - 2024-01-17 05:44:39 --> Unknown column 'id_agendamasjid' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_kas_masjid` SET `tanggal` = :tanggal:, `ket` = :ket:, `kas_keluar` = :kas_keluar:, `jenis_kas` = :jenis_kas:, `id_agendamasjid` = :id_agendamasjid:
+WHERE `id_kas_masjid` = :id_kas_masjid:', [...], false)
+ 2 APPPATH\Models\ModelKasKeluar1.php(71): CodeIgniter\Database\BaseBuilder->update([...], [...])
+ 3 APPPATH\Controllers\Kaskeluar1.php(98): App\Models\ModelKasKeluar1->updatekaskeluartpq([...], '4')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar1->updatetpq()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar1))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+INFO - 2024-01-17 05:47:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-17 05:47:40 --> mysqli_sql_exception: Unknown column 'id_agendamasjid' in 'field list' in C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `tbl_kas...', 0)
+#1 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_kas...')
+#2 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_kas...')
+#3 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_kas...', Array, false)
+#4 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\app\Models\ModelKasKeluar1.php(71): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\app\Controllers\Kaskeluar1.php(98): App\Models\ModelKasKeluar1->updatekaskeluartpq(Array, '4')
+#6 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(919): App\Controllers\Kaskeluar1->updatetpq()
+#7 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar1))
+#8 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Window...')
+#11 {main}
+CRITICAL - 2024-01-17 05:47:40 --> Unknown column 'id_agendamasjid' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_kas_masjid` SET `tanggal` = :tanggal:, `ket` = :ket:, `kas_keluar` = :kas_keluar:, `jenis_kas` = :jenis_kas:, `id_agendamasjid` = :id_agendamasjid:
+WHERE `id_kas_masjid` = :id_kas_masjid:', [...], false)
+ 2 APPPATH\Models\ModelKasKeluar1.php(71): CodeIgniter\Database\BaseBuilder->update([...], [...])
+ 3 APPPATH\Controllers\Kaskeluar1.php(98): App\Models\ModelKasKeluar1->updatekaskeluartpq([...], '4')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar1->updatetpq()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar1))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+INFO - 2024-01-17 05:50:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 05:50:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 05:51:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 05:54:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 05:54:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 05:55:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 05:57:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 05:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 05:58:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 05:58:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 06:00:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 06:00:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 06:01:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 06:02:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 06:02:54 --> Array to string conversion
+in APPPATH\Views\kaskeluar\vkksosial.php on line 195.
+ 1 APPPATH\Views\kaskeluar\vkksosial.php(195): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Views\\kaskeluar\\vkksosial.php', 195)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Views\\kaskeluar\\vkksosial.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kaskeluar/vkksosial', [], true)
+ 5 APPPATH\Controllers\Kaskeluar1.php(108): view('kaskeluar/vkksosial', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar1->sosial()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar1))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+INFO - 2024-01-17 06:03:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 06:03:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 06:03:31 --> Undefined array key "kas_masuk"
+in APPPATH\Views\kaskeluar\vkksosial.php on line 106.
+ 1 APPPATH\Views\kaskeluar\vkksosial.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kas_masuk"', 'C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Views\\kaskeluar\\vkksosial.php', 106)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Views\\kaskeluar\\vkksosial.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kaskeluar/vkksosial', [], true)
+ 5 APPPATH\Controllers\Kaskeluar1.php(108): view('kaskeluar/vkksosial', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar1->sosial()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar1))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+INFO - 2024-01-17 06:04:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 06:04:16 --> Undefined variable $kasmasjid
+in APPPATH\Views\kaskeluar\vkksosial.php on line 105.
+ 1 APPPATH\Views\kaskeluar\vkksosial.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kasmasjid', 'C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Views\\kaskeluar\\vkksosial.php', 105)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Views\\kaskeluar\\vkksosial.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kaskeluar/vkksosial', [], true)
+ 5 APPPATH\Controllers\Kaskeluar1.php(108): view('kaskeluar/vkksosial', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar1->sosial()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar1))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+INFO - 2024-01-17 06:04:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 06:04:31 --> Undefined array key "kas_masuk"
+in APPPATH\Views\kaskeluar\vkksosial.php on line 106.
+ 1 APPPATH\Views\kaskeluar\vkksosial.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kas_masuk"', 'C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Views\\kaskeluar\\vkksosial.php', 106)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Views\\kaskeluar\\vkksosial.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kaskeluar/vkksosial', [], true)
+ 5 APPPATH\Controllers\Kaskeluar1.php(108): view('kaskeluar/vkksosial', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar1->sosial()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar1))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+INFO - 2024-01-17 06:05:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 06:05:13 --> Undefined array key "kas_masuk"
+in APPPATH\Views\kaskeluar\vkksosial.php on line 106.
+ 1 APPPATH\Views\kaskeluar\vkksosial.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kas_masuk"', 'C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Views\\kaskeluar\\vkksosial.php', 106)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Views\\kaskeluar\\vkksosial.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kaskeluar/vkksosial', [], true)
+ 5 APPPATH\Controllers\Kaskeluar1.php(108): view('kaskeluar/vkksosial', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar1->sosial()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar1))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+INFO - 2024-01-17 06:05:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 06:05:18 --> Undefined array key "kas_masuk"
+in APPPATH\Views\kaskeluar\vkksosial.php on line 106.
+ 1 APPPATH\Views\kaskeluar\vkksosial.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kas_masuk"', 'C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Views\\kaskeluar\\vkksosial.php', 106)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Views\\kaskeluar\\vkksosial.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kaskeluar/vkksosial', [], true)
+ 5 APPPATH\Controllers\Kaskeluar1.php(108): view('kaskeluar/vkksosial', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar1->sosial()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar1))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+INFO - 2024-01-17 06:05:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 06:05:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 06:05:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 06:05:39 --> Undefined array key "kas_masuk"
+in APPPATH\Views\kaskeluar\vkksosial.php on line 106.
+ 1 APPPATH\Views\kaskeluar\vkksosial.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kas_masuk"', 'C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Views\\kaskeluar\\vkksosial.php', 106)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Views\\kaskeluar\\vkksosial.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kaskeluar/vkksosial', [], true)
+ 5 APPPATH\Controllers\Kaskeluar1.php(108): view('kaskeluar/vkksosial', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar1->sosial()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar1))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+INFO - 2024-01-17 06:06:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 06:06:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 06:06:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 06:06:07 --> Undefined array key "kas_masuk"
+in APPPATH\Views\kaskeluar\vkksosial.php on line 106.
+ 1 APPPATH\Views\kaskeluar\vkksosial.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kas_masuk"', 'C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Views\\kaskeluar\\vkksosial.php', 106)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Views\\kaskeluar\\vkksosial.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kaskeluar/vkksosial', [], true)
+ 5 APPPATH\Controllers\Kaskeluar1.php(108): view('kaskeluar/vkksosial', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar1->sosial()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar1))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+INFO - 2024-01-17 06:06:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 06:06:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 06:06:20 --> Undefined array key "kas_masuk"
+in APPPATH\Views\kaskeluar\vkksosial.php on line 106.
+ 1 APPPATH\Views\kaskeluar\vkksosial.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kas_masuk"', 'C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Views\\kaskeluar\\vkksosial.php', 106)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Views\\kaskeluar\\vkksosial.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kaskeluar/vkksosial', [], true)
+ 5 APPPATH\Controllers\Kaskeluar1.php(108): view('kaskeluar/vkksosial', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar1->sosial()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar1))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+INFO - 2024-01-17 06:06:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 06:06:45 --> Undefined variable $kasmasjid
+in APPPATH\Views\kaskeluar\vkksosial.php on line 105.
+ 1 APPPATH\Views\kaskeluar\vkksosial.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kasmasjid', 'C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Views\\kaskeluar\\vkksosial.php', 105)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Views\\kaskeluar\\vkksosial.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kaskeluar/vkksosial', [], true)
+ 5 APPPATH\Controllers\Kaskeluar1.php(108): view('kaskeluar/vkksosial', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar1->sosial()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar1))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+INFO - 2024-01-17 06:07:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 06:07:05 --> Undefined array key "kas_masuk"
+in APPPATH\Views\kaskeluar\vkksosial.php on line 106.
+ 1 APPPATH\Views\kaskeluar\vkksosial.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kas_masuk"', 'C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Views\\kaskeluar\\vkksosial.php', 106)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Views\\kaskeluar\\vkksosial.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kaskeluar/vkksosial', [], true)
+ 5 APPPATH\Controllers\Kaskeluar1.php(108): view('kaskeluar/vkksosial', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar1->sosial()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar1))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+INFO - 2024-01-17 06:08:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 06:09:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 06:10:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 06:10:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 06:12:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 06:13:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 06:13:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 06:16:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 06:16:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 06:16:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 06:21:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 06:21:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 06:21:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 06:21:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 06:21:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 06:21:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 06:21:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 06:22:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 06:22:56 --> Invalid file: "kaskeluar/vkkmesjid.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kaskeluar/vkkmesjid.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kaskeluar/vkkmesjid', [], true)
+ 3 APPPATH\Controllers\Kaskeluar1.php(152): view('kaskeluar/vkkmesjid', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar1->mesjid()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar1))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+INFO - 2024-01-17 06:23:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 06:23:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 06:23:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 06:24:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 06:24:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 06:56:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 07:00:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 07:00:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 07:01:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 07:02:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 07:02:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 07:03:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 07:03:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 07:03:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 07:03:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 07:04:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 07:04:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 07:04:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 07:13:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 07:13:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 07:15:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 07:16:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 07:16:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 07:16:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 07:16:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 07:17:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 07:17:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 07:17:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 07:18:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 07:18:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 07:19:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 07:19:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 07:19:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 07:19:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 07:25:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 07:30:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 07:31:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 07:31:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 07:46:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 07:46:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 07:47:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 07:47:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 07:49:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 07:50:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 07:50:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-17 09:00:35 --> mysqli_sql_exception: Table 'dbdigitalmasjid.tbl_masjid' doesn't exist in C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\MySQLi\Connection.php(306): mysqli->query('select sum(kas_...', 0)
+#1 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select sum(kas_...')
+#2 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select sum(kas_...')
+#3 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\app\Models\ModelKasKeluar1.php(12): CodeIgniter\Database\BaseConnection->query('select sum(kas_...')
+#4 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\app\Controllers\Kaskeluar1.php(17): App\Models\ModelKasKeluar1->getTotalkasanakyatim()
+#5 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(919): App\Controllers\Kaskeluar1->anakyatim()
+#6 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar1))
+#7 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Window...')
+#10 {main}
+CRITICAL - 2024-01-17 09:00:35 --> Table 'dbdigitalmasjid.tbl_masjid' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\ModelKasKeluar1.php(12): CodeIgniter\Database\BaseConnection->query('select sum(kas_masuk) as totalmasuk from tbl_masjid where jenis_kas="Anak Yatim"')
+ 2 APPPATH\Controllers\Kaskeluar1.php(17): App\Models\ModelKasKeluar1->getTotalkasanakyatim()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar1->anakyatim()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar1))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+INFO - 2024-01-17 09:01:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 09:01:32 --> Undefined variable $kasmasjid
+in APPPATH\Views\kaskeluar\vkkanakyatim.php on line 202.
+ 1 APPPATH\Views\kaskeluar\vkkanakyatim.php(202): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kasmasjid', 'C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Views\\kaskeluar\\vkkanakyatim.php', 202)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Views\\kaskeluar\\vkkanakyatim.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kaskeluar/vkkanakyatim', [], true)
+ 5 APPPATH\Controllers\Kaskeluar1.php(19): view('kaskeluar/vkkanakyatim', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar1->anakyatim()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar1))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+INFO - 2024-01-17 09:03:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 09:03:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 09:10:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 09:12:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 09:12:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 09:12:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 09:13:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 09:14:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 09:15:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 09:16:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 09:17:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 09:18:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 09:20:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 09:23:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 09:26:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 09:26:55 --> Undefined variable $tpq
+in APPPATH\Views\kaskeluar\vkkanakyatim.php on line 104.
+ 1 APPPATH\Views\kaskeluar\vkkanakyatim.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tpq', 'C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Views\\kaskeluar\\vkkanakyatim.php', 104)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Views\\kaskeluar\\vkkanakyatim.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kaskeluar/vkkanakyatim', [], true)
+ 5 APPPATH\Controllers\Kaskeluar1.php(19): view('kaskeluar/vkkanakyatim', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar1->anakyatim()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar1))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+INFO - 2024-01-17 09:28:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 09:28:26 --> Undefined variable $tpq
+in APPPATH\Views\kaskeluar\vkkanakyatim.php on line 104.
+ 1 APPPATH\Views\kaskeluar\vkkanakyatim.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tpq', 'C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Views\\kaskeluar\\vkkanakyatim.php', 104)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Views\\kaskeluar\\vkkanakyatim.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kaskeluar/vkkanakyatim', [], true)
+ 5 APPPATH\Controllers\Kaskeluar1.php(19): view('kaskeluar/vkkanakyatim', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar1->anakyatim()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar1))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+INFO - 2024-01-17 09:28:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 09:28:31 --> Undefined variable $tpq
+in APPPATH\Views\kaskeluar\vkkanakyatim.php on line 104.
+ 1 APPPATH\Views\kaskeluar\vkkanakyatim.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tpq', 'C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Views\\kaskeluar\\vkkanakyatim.php', 104)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Views\\kaskeluar\\vkkanakyatim.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kaskeluar/vkkanakyatim', [], true)
+ 5 APPPATH\Controllers\Kaskeluar1.php(19): view('kaskeluar/vkkanakyatim', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar1->anakyatim()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar1))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+INFO - 2024-01-17 09:28:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 09:28:48 --> Undefined variable $data_tpq
+in APPPATH\Views\kaskeluar\vkkanakyatim.php on line 286.
+ 1 APPPATH\Views\kaskeluar\vkkanakyatim.php(286): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_tpq', 'C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Views\\kaskeluar\\vkkanakyatim.php', 286)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Views\\kaskeluar\\vkkanakyatim.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kaskeluar/vkkanakyatim', [], true)
+ 5 APPPATH\Controllers\Kaskeluar1.php(19): view('kaskeluar/vkkanakyatim', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar1->anakyatim()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar1))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+INFO - 2024-01-17 09:29:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 09:29:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 09:30:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 09:30:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 09:31:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 09:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 09:33:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 09:35:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 09:35:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 09:35:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 09:39:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 09:39:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 09:39:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 09:39:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 09:43:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 09:43:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 09:48:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 09:49:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 09:49:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 09:50:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 09:50:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 09:51:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 09:51:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 12:07:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 12:07:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 12:10:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 12:10:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 12:11:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 12:11:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 12:11:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 12:21:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 12:21:33 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Kaskeluar1.php(69): CodeIgniter\Model->__call('getTotaltpqkeluar', [])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar1->tpq()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar1))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+INFO - 2024-01-17 12:31:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 12:31:18 --> Undefined variable $kasmasjid
+in APPPATH\Views\kaskeluar\vkktpq.php on line 105.
+ 1 APPPATH\Views\kaskeluar\vkktpq.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kasmasjid', 'C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Views\\kaskeluar\\vkktpq.php', 105)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Views\\kaskeluar\\vkktpq.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kaskeluar/vkktpq', [], true)
+ 5 APPPATH\Controllers\Kaskeluar1.php(70): view('kaskeluar/vkktpq', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar1->tpq()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar1))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+INFO - 2024-01-17 12:34:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 12:34:12 --> Undefined variable $kasmasjid
+in APPPATH\Views\kaskeluar\vkktpq.php on line 105.
+ 1 APPPATH\Views\kaskeluar\vkktpq.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kasmasjid', 'C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Views\\kaskeluar\\vkktpq.php', 105)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Views\\kaskeluar\\vkktpq.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kaskeluar/vkktpq', [], true)
+ 5 APPPATH\Controllers\Kaskeluar1.php(70): view('kaskeluar/vkktpq', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar1->tpq()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar1))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+INFO - 2024-01-17 12:36:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 12:36:30 --> Undefined variable $kasmasjid
+in APPPATH\Views\kaskeluar\vkktpq.php on line 202.
+ 1 APPPATH\Views\kaskeluar\vkktpq.php(202): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kasmasjid', 'C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Views\\kaskeluar\\vkktpq.php', 202)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Views\\kaskeluar\\vkktpq.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kaskeluar/vkktpq', [], true)
+ 5 APPPATH\Controllers\Kaskeluar1.php(70): view('kaskeluar/vkktpq', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar1->tpq()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar1))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+INFO - 2024-01-17 12:37:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 12:38:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 12:39:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 12:41:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 12:42:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 12:43:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 12:46:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 12:48:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 12:48:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 12:52:45 --> Cannot redeclare App\Controllers\Kaskeluar1::delete()
+in APPPATH\Controllers\Kaskeluar1.php on line 91.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-01-17 12:53:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 12:54:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 12:55:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 12:55:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 12:56:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 12:56:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 12:57:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 12:57:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 12:58:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 13:02:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 13:02:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 13:02:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 13:02:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 13:02:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 13:03:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 13:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 13:03:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 13:03:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 13:06:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 13:07:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 13:07:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 13:07:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 13:08:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 13:09:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 13:16:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 13:16:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 13:17:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 13:17:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 13:17:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 13:20:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 13:20:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 13:21:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-17 13:21:37 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbdigitalmasjid`.`tbl_kas_keluar`, CONSTRAINT `tbl_kas_keluar` FOREIGN KEY (`id_agendamasjid`) REFERENCES `tbl_agenda` (`id_agenda`) ON UPDATE CASCADE) in C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\app\Models\ModelKasKeluar1.php(20): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\app\Controllers\Kaskeluar1.php(58): App\Models\ModelKasKeluar1->insertData(Array)
+#6 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(919): App\Controllers\Kaskeluar1->save()
+#7 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar1))
+#8 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Window...')
+#11 {main}
+CRITICAL - 2024-01-17 13:21:37 --> Cannot add or update a child row: a foreign key constraint fails (`dbdigitalmasjid`.`tbl_kas_keluar`, CONSTRAINT `tbl_kas_keluar` FOREIGN KEY (`id_agendamasjid`) REFERENCES `tbl_agenda` (`id_agenda`) ON UPDATE CASCADE)
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_kas_keluar` (`tanggal`, `ket`, `kas_keluar`, `jenis_kas`, `id_agendamasjid`) VALUES (:tanggal:, :ket:, :kas_keluar:, :jenis_kas:, :id_agendamasjid:)', [...], false)
+ 2 APPPATH\Models\ModelKasKeluar1.php(20): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Kaskeluar1.php(58): App\Models\ModelKasKeluar1->insertData([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar1->save()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar1))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+INFO - 2024-01-17 13:22:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 13:23:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 13:23:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 13:24:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 13:24:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 13:27:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 13:27:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 13:27:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 13:27:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 13:28:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 13:28:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 13:28:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 13:28:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 13:29:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 13:29:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 13:32:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 13:35:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 13:35:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 13:35:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 13:35:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 13:36:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 13:36:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 13:36:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 13:36:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 13:53:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 13:54:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 13:54:05 --> Undefined variable $sosial
+in APPPATH\Views\kaskeluar\vkksosial.php on line 104.
+ 1 APPPATH\Views\kaskeluar\vkksosial.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sosial', 'C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Views\\kaskeluar\\vkksosial.php', 104)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Views\\kaskeluar\\vkksosial.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kaskeluar/vkksosial', [], true)
+ 5 APPPATH\Controllers\Kaskeluar1.php(121): view('kaskeluar/vkksosial', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar1->sosial()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar1))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+INFO - 2024-01-17 13:55:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 13:55:11 --> Undefined variable $sosial
+in APPPATH\Views\kaskeluar\vkksosial.php on line 104.
+ 1 APPPATH\Views\kaskeluar\vkksosial.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sosial', 'C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Views\\kaskeluar\\vkksosial.php', 104)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Views\\kaskeluar\\vkksosial.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kaskeluar/vkksosial', [], true)
+ 5 APPPATH\Controllers\Kaskeluar1.php(121): view('kaskeluar/vkksosial', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar1->sosial()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar1))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+INFO - 2024-01-17 13:57:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 13:57:16 --> Undefined variable $anakyatim
+in APPPATH\Views\kaskeluar\vkksosial.php on line 198.
+ 1 APPPATH\Views\kaskeluar\vkksosial.php(198): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $anakyatim', 'C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Views\\kaskeluar\\vkksosial.php', 198)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\app\\Views\\kaskeluar\\vkksosial.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('kaskeluar/vkksosial', [], true)
+ 5 APPPATH\Controllers\Kaskeluar1.php(121): view('kaskeluar/vkksosial', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar1->sosial()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar1))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+INFO - 2024-01-17 13:58:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 13:58:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 13:59:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:00:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:00:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:02:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:02:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:02:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:02:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:04:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:04:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:04:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:04:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:05:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-17 14:06:30 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbdigitalmasjid`.`tbl_kas_keluar`, CONSTRAINT `tbl_kas_keluar` FOREIGN KEY (`id_agendamasjid`) REFERENCES `tbl_agenda` (`id_agenda`) ON UPDATE CASCADE) in C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\app\Models\ModelKasKeluar1.php(23): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\app\Controllers\Kaskeluar1.php(58): App\Models\ModelKasKeluar1->insertData(Array)
+#6 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(919): App\Controllers\Kaskeluar1->save()
+#7 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar1))
+#8 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Window...')
+#11 {main}
+CRITICAL - 2024-01-17 14:06:30 --> Cannot add or update a child row: a foreign key constraint fails (`dbdigitalmasjid`.`tbl_kas_keluar`, CONSTRAINT `tbl_kas_keluar` FOREIGN KEY (`id_agendamasjid`) REFERENCES `tbl_agenda` (`id_agenda`) ON UPDATE CASCADE)
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_kas_keluar` (`tanggal`, `ket`, `kas_keluar`, `jenis_kas`, `id_agendamasjid`) VALUES (:tanggal:, :ket:, :kas_keluar:, :jenis_kas:, :id_agendamasjid:)', [...], false)
+ 2 APPPATH\Models\ModelKasKeluar1.php(23): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Kaskeluar1.php(58): App\Models\ModelKasKeluar1->insertData([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kaskeluar1->save()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaskeluar1))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+INFO - 2024-01-17 14:06:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:07:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:12:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:12:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:12:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:12:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:14:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:14:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:14:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:15:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:15:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:16:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:16:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:16:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:25:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:25:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:25:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:26:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 14:26:48 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Kasmasjid.php(46): CodeIgniter\Model->__call('updatekasmasjid', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kasmasjid->update()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasmasjid))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+INFO - 2024-01-17 14:26:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:27:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:27:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:28:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:28:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:28:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-17 14:29:20 --> mysqli_sql_exception: Duplicate entry 'D002' for key 'PRIMARY' in C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\app\Models\ModelDonatur.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\app\Controllers\Donatur.php(26): App\Models\ModelDonatur->insertData(Array)
+#6 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(919): App\Controllers\Donatur->save()
+#7 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Donatur))
+#8 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Windows 10\Documents\SEMESTER-5\lat1\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Window...')
+#11 {main}
+CRITICAL - 2024-01-17 14:29:20 --> Duplicate entry 'D002' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_donatur` (`iddonatur`, `nama`, `alamat`, `nohp`) VALUES (:iddonatur:, :nama:, :alamat:, :nohp:)', [...], false)
+ 2 APPPATH\Models\ModelDonatur.php(16): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Donatur.php(26): App\Models\ModelDonatur->insertData([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Donatur->save()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Donatur))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Windows 10\\Documents\\SEMESTER-5\\lat1\\public\\index.php')
+INFO - 2024-01-17 14:29:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:29:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:29:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:30:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:31:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:31:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:32:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:32:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:33:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:33:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:33:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:34:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:34:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:35:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:35:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:36:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:36:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:36:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:36:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:36:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:37:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:37:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:37:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:38:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:38:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:38:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:39:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:39:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:39:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:39:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:39:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:40:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
